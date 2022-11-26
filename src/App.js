@@ -17,7 +17,7 @@ function App() {
   ]);
 
   //todo 추가하기
-  const onSaveTodo = (newTodo) => {
+  const onSavedTodo = (newTodo) => {
     const todosData = {
       ...newTodo,
       id: uuidv4(),
@@ -27,7 +27,7 @@ function App() {
     //console.log('todosData: ', todosData);
   };
   //todo 삭제하기
-  const onDeleteTodo = (id) => {
+  const onDeletedTodo = (id) => {
     //console.log(id);
     const newTodoList = todos.filter((todo) => todo.id !== id);
     setTodos(newTodoList);
@@ -46,11 +46,11 @@ function App() {
   return (
     <div className='wrap'>
       <Header />
-      <AddContents onSaveTodosData={onSaveTodo} />
+      <AddContents onSaveTodosData={onSavedTodo} />
       <Contents
         todosData={todos}
-        onDeleteTdosData={onDeleteTodo}
-        onProgressState={onProgressTodo}
+        deleteTdosData={onDeletedTodo}
+        progressData={onProgressTodo}
       />
     </div>
   );
