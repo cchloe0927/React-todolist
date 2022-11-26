@@ -1,6 +1,6 @@
 # [React] My Todo List
 <hr>
-해99 주특기 입문 주차 과제
+항해99 주특기 입문 주차 과제
 <br>
 *예시 사이트 : http://todolistassignment.s3-website.ap-northeast-2.amazonaws.com/
 
