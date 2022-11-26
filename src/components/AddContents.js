@@ -15,17 +15,19 @@ const AddContents = (props) => {
     console.log(event.target.value);
     setContents(event.target.value);
   };
-
   //form태그 새로고침 막기
   const addTodoHandler = (event) => {
     event.preventDefault();
 
-    //추가 버튼 클릭 시, 새로운 Todo 카드 생성
+    ////추가 버튼 클릭 시, 새로운 Todo 카드 생성
     const newTodo = {
       title: title,
       contents: contents,
     };
     props.onSavetodosData(newTodo);
+    //저장 후 input 내용 빈 값 처리
+    setTeitle('');
+    setContents('');
   };
 
   return (
