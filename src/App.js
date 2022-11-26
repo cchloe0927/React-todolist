@@ -23,11 +23,19 @@ function App() {
       contents: '리액트 기초를 공부해 봅시다!',
     },
   ]);
+  const onSavetodos = (newTodo) => {
+    const todosData = {
+      ...newTodo,
+      id: todos.length + 1,
+    };
+    setTodos([...todos, todosData]);
+    console.log(todosData);
+  };
 
   return (
     <div className='wrap'>
       <Header />
-      <AddContents />
+      <AddContents onSavetodosData={onSavetodos} />
       <Contents todosData={todos} />
     </div>
   );
