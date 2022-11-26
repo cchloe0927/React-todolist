@@ -23,7 +23,8 @@ function App() {
       contents: '리액트 기초를 공부해 봅시다!',
     },
   ]);
-  const onSavetodos = (newTodo) => {
+  //todo 추가하기
+  const onSaveTodo = (newTodo) => {
     const todosData = {
       ...newTodo,
       id: todos.length + 1,
@@ -31,12 +32,18 @@ function App() {
     setTodos([...todos, todosData]);
     console.log(todosData);
   };
+  //todo 삭제하기
+  const onDeleteTodo = (id) => {
+    console.log(id);
+    const newTodoList = todos.filter((todo) => todo.id !== id);
+    setTodos(newTodoList);
+  };
 
   return (
     <div className='wrap'>
       <Header />
-      <AddContents onSavetodosData={onSavetodos} />
-      <Contents todosData={todos} />
+      <AddContents onSaveTodosData={onSaveTodo} />
+      <Contents todosData={todos} onDeleteTdosData={onDeleteTodo} />
     </div>
   );
 }
