@@ -27,7 +27,7 @@
 <b>Header / Todo 추가 / Todo List가 보여지는 부분 / 각 해당 Todo List</b>
 
 
-<img src="https://user-images.githubusercontent.com/96729804/204087464-12c657d0-06ff-4550-983a-26b87bcb2cf3.jpeg"width="800" height="400"/>
+<img src="https://user-images.githubusercontent.com/96729804/204087464-12c657d0-06ff-4550-983a-26b87bcb2cf3.jpeg" width="650" height="350"/>
 
 
 > Header① : 값이 변하지 않는 고정 부분이라 고유 컴포넌트로 분리함
