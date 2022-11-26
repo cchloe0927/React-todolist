@@ -12,11 +12,11 @@
 5. 컴포넌트 구조는 자유롭게 구현해보세요.
 
 ## Table of Contents
-- [Components구조](#Components구조)
-- [UI구성하기](#UI구성하기)
-- [Todo추가](#Todo추가)
-- [Todo삭제](#Todo삭제)
-- [Todo완료 상태변경 (완료 ↔ 진행중)](#Todo완료상태변경)
+- [Components 구조](#Components구조)
+- [UI 구성하기](#UI구성하기)
+- [Todo 추가](#Todo추가)
+- [Todo 삭제](#Todo삭제)
+- [Todo 완료 상태변경 (완료 ↔ 진행중)](#Todo완료상태변경)
 
 <hr>
 <hr>
@@ -42,12 +42,14 @@
 
 
 ## Todo추가
+<b>Todo-list추가하기 및 추가한 후에 빈 값 처리하기</b>
 
-This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
+> App - AddContents 컴포넌트
 
-```sh
-$ npm install --global standard-readme-spec
-```
+> App - Contents 컴포넌트
+
+AddContents 컴포넌트에서 추가하기 버튼을 누르면 title, contens의 value를 App 컴포넌트에서 prop로 전달받은 함수를 호출하면서 인수로 전달해주고
+Add 컴포넌트에서는 전달받은 매개변수를 핸드링해서 다시 Contents 컴포넌트로 데이터를 전달함 
 
 
 ## Todo삭제
