@@ -1,5 +1,5 @@
 .contents_card {
-    background-color: #D3DDFF;
+    border: 2.5px solid #839EF7;
     border-radius: 6px;
     width: 330px;
     height: 170px;
@@ -7,7 +7,7 @@
 }
 
 .contents_title {
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .contents_text {
@@ -32,28 +32,32 @@ p {
     width: 100%;
     height: 35px;
     background-color: transparent;
-    border: 2px solid #3E4B75;
+    font-weight: 500;
+    border: 2px solid #eee;
     border-radius: 6px;
     font-size: 16px;
 }
 .deleteBtn:hover {
     cursor: pointer;
-    border: 2px solid #839EF7;
-    background-color: #839EF7;
+    border: 2px solid #eee;
+    background-color: #eee;
 }
 
 .doneBtn {
     width: 100%;
     height: 35px;
     background-color: transparent;
-    border: 2px solid #3E4B75;
+    border: 2px solid #839EF7;
+    background-color: #839EF7;
+    color : white;
+    font-weight: 500;
     border-radius: 6px;
     font-size: 16px;
 }
 .doneBtn:hover {
     cursor: pointer;
-    border: 2px solid #839EF7;
-    background-color: #839EF7;
+    border: 2px solid #7390EF;
+    background-color: #7390EF;
 }
 
 /*반응형*/

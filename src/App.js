@@ -10,8 +10,8 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: '리액트 공부하기1',
-      contents: '리액트 기초를 공부해 봅시다!',
+      title: '리액트 공부하기',
+      contents: '리액트 기초를 마스터 하자!',
       progress: true,
     },
   ]);
