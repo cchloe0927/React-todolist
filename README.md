@@ -21,18 +21,22 @@
 - [Todo 완료 상태변경 (완료 ↔ 진행중)](#Todo완료상태변경)
 
 <hr>
-<hr>
 
 
 ## Components구조
-<b>Header / Todo 추가 / Todo List가 보여지는 부분으로 나눔</b>
-![IMG_C1B3BC4D1950-1](https://user-images.githubusercontent.com/96729804/204071374-abf44555-c4b6-4401-9ad9-6f15b943dcb4.jpeg)
+<b>Header / Todo 추가 / Todo List가 보여지는 부분 / 각 해당 Todo List</b>
+
+
+<img src="https://user-images.githubusercontent.com/96729804/204087464-12c657d0-06ff-4550-983a-26b87bcb2cf3.jpeg"width="800" height="400"/>
+
 
 > Header① : 값이 변하지 않는 고정 부분이라 고유 컴포넌트로 분리함
 
 > Todo 추가② : 새로운 todo-list를 추가하는 부분으로 추가 데이터만 전달하는 기능이기 때문에 데이터를 추가하는 부분의 컴포넌트로 분리함
 
 > Todo List가 보여이는 부분③ : 모든 데이터를 받아서 핸드링 하는 부분으로 컴포넌트를 분리함
+
+> 각 해당 Todo-List④ : 추가 시, 각각의 Todo-List의 형태는 동일하기 때문에 컴포너트로 분리함
 
 
 ## UI구성하기
@@ -63,6 +67,7 @@ Todo List 추가시 고유 id값을 지정해서 객체안에 생성해주고 �
 
 
 ## Todo완료상태변경
-
+완료, 취소 버튼에 인수로 각 Todo-list의 고유 id값과 진행상태(progress)를 넘겨주고 App 컴포넌트에서 조건에 따라 state상태를 변경시켜준 데이터를 다시 전달함
+완료 버튼 클릭 시, Done 칸으로 이동하고 취소 버튼을 클릭 시, Working 칸으로 이동
 
 
