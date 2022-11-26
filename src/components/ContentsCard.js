@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Contents.module.css';
+import classes from './ContentsCard.module.css';
 
 const ContentsCard = ({ todo, deleteTdosData, progressData, buttonName }) => {
   //console.log('todo: ', todo);

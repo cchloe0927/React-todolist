@@ -25,7 +25,7 @@ input {
 
 .addBtn {
     padding: 5px;
-    background-color: teal;
+    background-color: #839EF7;
     color: white;
     font-weight: bold;
     width: 100px;
@@ -33,6 +33,9 @@ input {
     font-size: 16px;
     border-radius: 6px;
     border: none;
+}
+.addBtn:hover {
+    cursor: pointer;
 }
 
 /*반응형*/

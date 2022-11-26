@@ -1,0 +1,64 @@
+.contents_card {
+    background-color: #D3DDFF;
+    border-radius: 6px;
+    width: 330px;
+    height: 170px;
+    padding: 20px;
+}
+
+.contents_title {
+    margin: 5px;
+}
+
+.contents_text {
+    width: 100%;
+    height: 60px;
+    overflow: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: flex-end; */
+    gap: 20px;
+    padding: 0px 10px;
+}
+
+.deleteBtn {
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid #3E4B75;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.deleteBtn:hover {
+    cursor: pointer;
+    border: 2px solid #839EF7;
+    background-color: #839EF7;
+}
+
+.doneBtn {
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid #3E4B75;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.doneBtn:hover {
+    cursor: pointer;
+    border: 2px solid #839EF7;
+    background-color: #839EF7;
+}
+
+/*반응형*/
+@media screen and (max-width: 800px) {
+    .contents_card  {
+        width: 92%;
+    }
+}

@@ -3,7 +3,7 @@ import classes from './Contents.module.css';
 import ContentsCard from './ContentsCard';
 
 const Contents = (props) => {
-  console.log('props', props);
+  //console.log('props', props);
   const isWorking = props.todosData.filter((work) => work.progress === true);
   const isDone = props.todosData.filter((work) => work.progress === false);
   //console.log('isWorking', isWorking);
