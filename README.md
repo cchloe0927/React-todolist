@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/96729804/204094697-5df18463-a560-4590-
 
 | 구현 영상(모니터화면) | 반응형 |
 |:------:|:------:|
-| <img width="1242" alt="스크린샷 2022-11-27 오전 11 54 37" src="https://user-images.githubusercontent.com/96729804/204117181-215571c6-66f8-424d-aa95-bf00beae647f.png"> |![ezgif com-gif-maker](https://user-images.githubusercontent.com/96729804/204116876-1a74e612-52ab-4e92-a730-abf9f7d3c9f3.gif)|
+| <img width="1242" alt="스크린샷 2022-11-27 오전 11 54 37" src="https://user-images.githubusercontent.com/96729804/204117181-215571c6-66f8-424d-aa95-bf00beae647f.png"> | ![ezgif com-gif-maker](https://user-images.githubusercontent.com/96729804/204117316-1fe3270c-2908-4f38-9f8f-f39c7749e7b9.gif) |
 
 
 
