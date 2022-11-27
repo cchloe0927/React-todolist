@@ -27,6 +27,14 @@
 
 https://user-images.githubusercontent.com/96729804/204094697-5df18463-a560-4590-88b6-ae715f13b55b.mov
 
+| 구현 영상(모니터화면) | 반응형 |
+|:------:|:------:|
+| https://user-images.githubusercontent.com/96729804/204094697-5df18463-a560-4590-88b6-ae715f13b55b.mov |![ezgif com-gif-maker](https://user-images.githubusercontent.com/96729804/204116876-1a74e612-52ab-4e92-a730-abf9f7d3c9f3.gif)|
+
+
+
+
+
 
 ## Components구조
 <b>Header / Todo 추가 / Todo List가 보여지는 부분 / 각 해당 Todo List</b>
