@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid'; //고유 id값 주기 위한 라이브러리 (설치해야함)
 //component
 import Header from './components/Header';
 import AddContents from './components/AddContents';
@@ -15,7 +15,6 @@ function App() {
       progress: true,
     },
   ]);
-
   //todo 추가하기
   const onSavedTodo = (newTodo) => {
     const todosData = {
@@ -36,7 +35,7 @@ function App() {
   const onProgressTodo = (id, progress) => {
     //console.log(id);
     const todos_index = todos.findIndex((todo) => todo.id === id); //조건이 충족하는 인덱스 번호를 구함
-    console.log('todos_index: ', todos_index);
+    //console.log('todos_index: ', todos_index);
     progress
       ? (todos[todos_index].progress = false)
       : (todos[todos_index].progress = true);
