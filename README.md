@@ -14,7 +14,7 @@
 
 
 ## Table of Contents
-- [구현 영상](#구현영상)
+- [구현 화면](#구현화면)
 - [Components 구조](#Components구조)
 - [UI 구성하기](#UI구성하기)
 - [Todo 추가](#Todo추가)
@@ -23,16 +23,25 @@
 
 <hr>
 
-## 구현영상
+## 구현화면
 
 https://user-images.githubusercontent.com/96729804/204094697-5df18463-a560-4590-88b6-ae715f13b55b.mov
+
+| 구현 영상(모니터화면) | 반응형 |
+|:------:|:------:|
+| <img width="1242" alt="스크린샷 2022-11-27 오전 11 54 37" src="https://user-images.githubusercontent.com/96729804/204117181-215571c6-66f8-424d-aa95-bf00beae647f.png"> | ![ezgif com-gif-maker](https://user-images.githubusercontent.com/96729804/204117316-1fe3270c-2908-4f38-9f8f-f39c7749e7b9.gif) |
+
+
+
+
 
 
 ## Components구조
 <b>Header / Todo 추가 / Todo List가 보여지는 부분 / 각 해당 Todo List</b>
 
-
-<img src="https://user-images.githubusercontent.com/96729804/204087464-12c657d0-06ff-4550-983a-26b87bcb2cf3.jpeg" width="650" height="350"/>
+| 컴포넌트 구조 시각화 |
+|:------:|
+| <img src="https://user-images.githubusercontent.com/96729804/204087464-12c657d0-06ff-4550-983a-26b87bcb2cf3.jpeg" width="650" height="350"/> |
 
 
 > Header① : 값이 변하지 않는 고정 부분이라 고유 컴포넌트로 분리함
