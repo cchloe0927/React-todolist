@@ -46,7 +46,8 @@ input {
 @media screen and (max-width: 800px) {
     .add {
         height: 100px;
-        position: relative;
+        align-items: flex-end; /*포지션이을 최대한 지양하자!*/
+        /* position: relative; */
     }
     form .contents {
         display: flex;
@@ -57,11 +58,12 @@ input {
     }
     form .addBtn {
         height: 50px;
-        position: absolute;
-        right: 20px;
-        bottom: 15px;
+        /* position: absolute; */
+        /* right: 20px;
+        bottom: 15px; */
         width: 80px;
         height: 35px;
         font-size: 14px;
+        display: block;
     }
    }
