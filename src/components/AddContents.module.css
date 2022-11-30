@@ -18,12 +18,20 @@ label {
     font-size: 18px;
 }
 
-input {
+.input {
     margin-right: 20px;
     width: 250px;
     height: 30px;
     border-radius: 6px;
-    border:0 solid black;
+    border:1px solid #eee;
+    outline: none;
+}
+.invalid {
+    margin-right: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+    border:1.5px solid #F54445;
     outline: none;
 }
 
