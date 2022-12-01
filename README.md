@@ -34,25 +34,21 @@ https://user-images.githubusercontent.com/96729804/204094697-5df18463-a560-4590-
 | <img width="1242" alt="스크린샷 2022-11-27 오전 11 54 37" src="https://user-images.githubusercontent.com/96729804/204117181-215571c6-66f8-424d-aa95-bf00beae647f.png"> | ![ezgif com-gif-maker](https://user-images.githubusercontent.com/96729804/204117316-1fe3270c-2908-4f38-9f8f-f39c7749e7b9.gif) |
 
 
-
-
-
-
 ## Components구조
-<b>Header / Todo 추가 / Todo List가 보여지는 부분 / 각 해당 Todo List</b>
+<b>Header / Todo 추가 / Todo List가 보여지는 부분 / 각 해당 Todo</b>
 
 | 컴포넌트 구조 시각화 |
 |:------:|
 | <img src="https://user-images.githubusercontent.com/96729804/204087464-12c657d0-06ff-4550-983a-26b87bcb2cf3.jpeg" width="650" height="350"/> |
 
 
-> Header① : 값이 변하지 않는 고정 부분이라 고유 컴포넌트로 분리함
+> Header ① : 값이 변하지 않는 고정 부분이라 고유 컴포넌트로 분리함
 
-> Todo 추가② : 새로운 todo-list를 추가하는 부분으로 추가 데이터만 전달하는 기능이기 때문에 데이터를 추가하는 부분의 컴포넌트로 분리함
+> Todo 추가 ② : 새로운 todo-list를 추가하는 부분으로 추가 데이터만 전달하는 기능이기 때문에 데이터를 추가하는 부분의 컴포넌트로 분리함
 
-> Todo List가 보여이는 부분③ : 모든 데이터를 받아서 핸드링 하는 부분으로 컴포넌트를 분리함
+> Todo List가 보여이는 부분 ③ : 모든 데이터를 받아서 핸드링 하는 부분으로 컴포넌트를 분리함
 
-> 각 해당 Todo-List④ : 추가 시, 각각의 Todo-List의 형태는 동일하기 때문에 컴포너트로 분리함
+> 각 해당 Todo ④ : 각각의 Todo의 형태가 반복되기 때문에 하나의 컴포넌트로 분리함
 
 
 ## UI구성하기
