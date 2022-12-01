@@ -3,6 +3,7 @@
 항해99 주특기 입문 주차 과제
 <br>
 *예시 사이트 : http://todolistassignment.s3-website.ap-northeast-2.amazonaws.com/
+*구현 사이트(배포) : https://todo-list-gamma-five.vercel.app/
 
 
 ## Constraints
@@ -64,14 +65,16 @@ https://user-images.githubusercontent.com/96729804/204094697-5df18463-a560-4590-
 
 
 ## Todo추가
-<b>Todo-list추가하기 및 추가한 후에 빈 값 처리하기</b>
+<b>1. Todo-list추가하기 및 추가한 후에 빈 값 처리하기</b>
 
 > App - AddContents 컴포넌트
 
 > App - Contents 컴포넌트
 
 AddContents 컴포넌트에서 추가하기 버튼을 누르면 title, contens의 value를 App 컴포넌트에서 prop로 전달받은 함수를 호출하면서 인수로 전달해주고
-Add 컴포넌트에서는 전달받은 매개변수를 핸드링해서 다시 Contents 컴포넌트로 데이터를 전달함 
+Add 컴포넌트에서는 전달받은 매개변수를 핸드링해서 다시 Contents 컴포넌트로 데이터를 전달함
+
+<b>2. 빈 값일 때 버튼 클릭 시, alert창 대신 CSS를 사용해 UI구성</b>
 
 
 ## Todo삭제
